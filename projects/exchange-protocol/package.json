@@ -1,0 +1,19 @@
+{
+  "name": "exchange-protocol",
+  "description": "Exchange contracts from Uniswap v2, and new features (zaps)",
+  "version": "2.0.0",
+  "license": "GPL-3.0/MIT",
+  "private": true,
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy:testnet": "npx hardhat deploy --network testnet",
+    "deploy:mainnet": "npx hardhat deploy --network mainnet",
+    "deploy:ganache": "npx hardhat deploy --network ganache",
+    "deploy:localhost": "npx hardhat node --network hardhat",
+    "test": "npx hardhat test",
+    "test:coverage": "npx hardhat coverage"
+  },
+  "devDependencies": {
+    "@uniswap/lib": "4.0.1-alpha"
+  }
+}
