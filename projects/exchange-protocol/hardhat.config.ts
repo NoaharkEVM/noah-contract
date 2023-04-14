@@ -36,12 +36,12 @@ const testnet: NetworkUserConfig = {
 };
 
 const mainnet: NetworkUserConfig = {
-  url: "https://api2-testnet.trust.one",
-  chainId: 56,
+  url: "https://api.evm.eosnetwork.com",
+  chainId: 17777,
   accounts: [process.env.KEY_MAINNET!],
   verify: {
     etherscan: {
-      apiUrl: 'https://api.testnet-dev.trust.one'
+      apiUrl: 'https://explorer.evm.eosnetwork.com'
     }
   },
 };
